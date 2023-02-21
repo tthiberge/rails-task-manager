@@ -1,0 +1,8 @@
+<h1>Editing an existing Task</h1>
+
+<%= form_with model: @task do |f| %>
+<%= render "form", task: @task %>
+<%= f.label :completed? %>
+<%= f.check_box :completed %>
+<%= f.submit  %>
+<% end %>

@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .task{
+  padding: 15px;
+  margin: 5px;
+ }
+
+ .task > a {
+  text-decoration: none;
+ }
+
+ .tasks {
+  padding: 15px;
+  margin: 5px;
+ }
